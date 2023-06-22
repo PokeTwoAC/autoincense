@@ -100,7 +100,7 @@ def pegar():
 	js = json.loads(msg.text)
 	for c in js:
 		#print(c)
-		if "1117089914681569290" in str(c) and "The pokémon is" in str(c):
+		if "716390085896962058" in str(c) and "The pokémon is" in str(c):
 			vei = c["content"]
 			poke = solve(vei)
 			final(poke)
